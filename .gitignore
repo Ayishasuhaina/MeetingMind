@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+# Python virtual environment
+backend/.venv/
+# SQLite database (optional, but keep if you want to version data)
+*.db
+# Build artifacts
+dist/
+build/
+# OS files
+.DS_Store
+Thumbs.db
+# Vite cache
+.vite
+# Logs
+*.log
+
+
+
+# Python virtual environment
+backend/.venv/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Installer files
+*.msi
